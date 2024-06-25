@@ -56,7 +56,7 @@ def formatear_preguntas(input_file):
 st.title("Formato Quizes TutorLMS - IQ-Est Academy")
 
 # Cargar el archivo de entrada
-uploaded_file = st.file_uploader("Sube el archivo de preguntas en formato Excel", type=["csv"])
+uploaded_file = st.file_uploader("Sube el archivo de preguntas en formato Excel", type=["xlsx"])
 
 if uploaded_file is not None:
     # Formatear las preguntas
