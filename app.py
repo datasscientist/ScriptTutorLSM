@@ -9,7 +9,7 @@ def formatear_preguntas(input_file):
     formatted_data = []
 
     # Añadir la fila de encabezado fija
-    header = ["settings", "TÍTULO DE LA LECCIÓN", "RESUMEN DE LA LECCIÓN", 0, "minutes", "", 0, 80, 10, "", "", "rand", 200]
+    header = ["settings", "TÃTULO DE LA LECCIÃ“N", "RESUMEN DE LA LECCIÃ“N", 0, "minutes", "", 0, 80, 10, "", "", "rand", 200]
     formatted_data.append(header)
 
     # Iterar sobre las filas del DataFrame de entrada y formatearlas
