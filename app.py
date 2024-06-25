@@ -17,7 +17,7 @@ def formatear_preguntas(input_file):
         question_row = [
             "question", 
             row['PREGUNTA'], 
-            ("<p>" + row['DESCRIPCIÓN DE LA PREGUNTA'] + "</p>") if row['DESCRIPCIÓN DE LA PREGUNTA'] != "" else " ", 
+            ("<p>" + row['DESCRIPCIÓN DE LA PREGUNTA'] + "</p>") if row['DESCRIPCIÓN DE LA PREGUNTA'] != None else " ", 
             "single_choice", 
             1, 
             idx + 1, 
