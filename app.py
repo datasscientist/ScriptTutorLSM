@@ -69,7 +69,7 @@ if uploaded_file is not None:
     # Descargar el archivo de salida
     st.download_button(
         label="Descargar archivo formateado",
-        data=df_output.to_csv(index=False, header=False),
+        data=df_output.to_csv(index=False, header=False).encode('utf-8'),
         file_name='tutor-quiz-formateado.csv',
         mime='text/csv'
     )
