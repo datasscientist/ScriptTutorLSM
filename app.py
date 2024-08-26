@@ -24,7 +24,7 @@ def formatear_preguntas(input_file):
             "", 
             1, 
             "",  
-            "<p>" + row["EXPLICACION"] + "<p>"
+            "<p>" + (row['EXPLICACION'] if isinstance(row['EXPLICACION'], str) and row['EXPLICACION'] else "") + "<p>"
         ]
         formatted_data.append(question_row)
 
