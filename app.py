@@ -24,7 +24,7 @@ def formatear_preguntas(input_file):
             "", 
             1, 
             "",  
-            '<p><br data-mce-bogus="1"></p>'
+            "<p>" + row["EXPLICACION"] + "<p>"
         ]
         formatted_data.append(question_row)
 
