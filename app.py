@@ -55,6 +55,9 @@ def formatear_preguntas(input_file):
 # Interfaz de Streamlit
 st.title("Formato Quizes TutorLMS - IQ-Est Academy")
 
+# Ponemos el Excel de entrada
+st.markdown("Descarga el archivo de referencia: [ENTRADA](https://docs.google.com/spreadsheets/d/14U-2J-OVjT3GeBxU3oPvLOWD5Rz-1NhX/edit?usp=sharing&ouid=108171399223130798643&rtpof=true&sd=true)")
+
 # Cargar el archivo de entrada
 uploaded_file = st.file_uploader("Sube el archivo de preguntas en formato Excel", type=["xlsx"])
 
